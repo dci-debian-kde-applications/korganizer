@@ -15,7 +15,7 @@ override_dh_makeshlibs:
 	$(overridden_command) -V
 
 override_dh_strip:
-	$(overridden_command) --dbgsym-migration='kdepim-dbg (<= 4:15.12.1-1~~)'
+	$(overridden_command) --dbgsym-migration='korganizer-dbg (<= 4:15.12.1-1~~)'
 
 override_dh_shlibdeps:
 	$(overridden_command)
@@ -24,6 +24,3 @@ override_dh_shlibdeps:
 	    echo "Tightening dependency on kdepim-runtime to (>= $(KDEPIM_RUNTIME_VERSION)"; \
 	    sed -i '/^shlibs:[^=]\+=/{ s/\(^shlibs:[^=]\+=[[:space:]]*\|,[[:space:]]*\)\(kdepim-runtime\)\([[:space:]]*([[:space:]]*[><=]\+[^)]\+)\)\?/\1\2 (>= $(KDEPIM_RUNTIME_VERSION))/g }' debian/*.substvars; \
 	fi
-
-debian/PIM.png: debian/PIM.dot
-	dot -Tpng debian/PIM.dot > debian/PIM.png
