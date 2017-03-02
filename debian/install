@@ -1,0 +1,7 @@
+etc/xdg/
+usr/bin/
+usr/lib/*/libkorganizer_core.so.5*
+usr/lib/*/libkorganizer_interfaces.so.5*
+usr/lib/*/libkorganizerprivate.so.5*
+usr/lib/*/qt5/
+usr/share/
