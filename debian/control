@@ -66,11 +66,15 @@ Package: korganizer
 Architecture: any
 Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Homepage: http://kontact.kde.org/korganizer/
-Breaks: kdepim-doc (<< 4:16.12.0),
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        kdepim-doc (<< 4:16.12.0),
         kontact (<< 4:4.13.3-2),
         libkdepim4 (<< 4:4.14.10-3),
         ${kde-l10n:all},
-Replaces: kdepim-doc (<< 4:16.12.0),
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          kdepim-doc (<< 4:16.12.0),
           kontact (<< 4:4.13.3-2),
           libkdepim4 (<< 4:4.14.10-3),
           ${kde-l10n:all},
