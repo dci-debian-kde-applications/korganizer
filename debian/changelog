@@ -9,6 +9,7 @@ korganizer (4:17.08.3-2) UNRELEASED; urgency=medium
   * Allow stderr in the 'testsuite' autopkgtest.
   * Remove unused ${perl:Depends} substvar from korganizer.
   * Update lintian overrides.
+  * Remove unused dh_makeshlibs override.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 10:23:59 +0100
 
