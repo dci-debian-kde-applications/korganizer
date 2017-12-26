@@ -2,4 +2,4 @@ Tests: testsuite
 Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus,
          akonadi-backend-sqlite, kinit, libkf5akonadi-dev-bin, libgl1-mesa-dri
-Restrictions: build-needed
+Restrictions: build-needed, allow-stderr
