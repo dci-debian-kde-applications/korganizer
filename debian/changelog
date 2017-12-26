@@ -4,6 +4,8 @@ korganizer (4:17.08.3-2) UNRELEASED; urgency=medium
   * Do not ship development symlinks of private libraries.
   * Simplify watch file, and switch it to https.
   * Remove not-installed file, no more useful.
+  * Remove the kontact, and libkdepim4 breaks/replaces, as they are no more
+    needed.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 10:23:59 +0100
 
