@@ -12,6 +12,7 @@ korganizer (4:17.08.3-2) UNRELEASED; urgency=medium
   * Remove unused dh_makeshlibs override.
   * Since kdepim-runtime is available only on few architectures (due to
     QtWebEngine), limit the dependency on it to amd64 arm64 armhf i386 mipsel.
+  * Bump Standards-Version to 4.1.3, no changes required.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 10:23:59 +0100
 
